@@ -1,0 +1,14 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="hero-content">
+    <img src="/images/tswebdevlogo1.png" alt="TSWebDev Logo" class="hero-logo" />
+    <h1>Click. Code. Create.</h1>
+    <p>Welcome to my portfolio — exploring creativity through code.</p>
+  </div>
+</section>
+
+<section class="projects">
+  <h2>Featured Projects</h2>
+  {{ partial "projects.html" . }}
+</section>
+{{ end }}

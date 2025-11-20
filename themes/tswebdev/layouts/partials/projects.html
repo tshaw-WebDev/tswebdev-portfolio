@@ -1,0 +1,14 @@
+<div class="project-grid">
+  {{ range .Site.Data.projects }}
+    <div class="project-card">
+      <img src="{{ .image }}" alt="{{ .title }}">
+      <h3>{{ .title }}</h3>
+      <p>{{ .description }}</p>
+      <div class="tags">
+        {{ range .tech }}
+          <span class="tag">{{ . }}</span>
+        {{ end }}
+      </div>
+    </div>
+  {{ end }}
+</div>

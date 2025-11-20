@@ -1,0 +1,29 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ if .Title }}{{ .Title }} | {{ end }}TSWebDev</title>
+  <!-- Basic SEO -->
+<meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ site.Params.siteDescription }}{{ end }}">
+<meta name="author" content="{{ site.Params.siteAuthor }}">
+<meta name="keywords" content="{{ site.Params.keywords }}">
+
+<!-- Open Graph (Social Sharing) -->
+<meta property="og:title" content="{{ .Title }} | TSWebDev">
+<meta property="og:description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ site.Params.siteDescription }}{{ end }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="{{ "/images/TSWebDev.png" | relURL }}">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ .Title }} | TSWebDev">
+<meta name="twitter:description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ site.Params.siteDescription }}{{ end }}">
+<meta name="twitter:image" content="{{ "/images/TSWebDev.png" | relURL }}">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
+
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>

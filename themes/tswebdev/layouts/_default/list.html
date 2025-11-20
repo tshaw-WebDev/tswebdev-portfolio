@@ -1,0 +1,18 @@
+{{ define "main" }}
+<section class="projects-list">
+ <h2 data-aos="fade-right">{{ .Title }}</h2>
+  <div class="projects-container">
+    {{ range .Pages }}
+      <div class="project-card">
+        <h3>{{ .Title }}</h3>
+        <p>{{ .Summary }}</p>
+{{ with .Params.thumbnail }}
+  <a href="{{ $.Params.link | default $.RelPermalink }}" target="_blank">
+    <img src="{{ . }}" alt="{{ $.Title }} Thumbnail">
+  </a>
+{{ end }}
+      </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

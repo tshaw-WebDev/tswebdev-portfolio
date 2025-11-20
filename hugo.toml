@@ -1,0 +1,14 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-gb'
+title = "TSWebDev Portfolio"
+theme = "tswebdev"
+enableRobotsTXT = true
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+[params]
+  siteDescription = "TSWebDev — Web Development Portfolio showcasing modern projects built with Hugo, HTML, CSS, JavaScript, and AI-assisted workflows."
+  siteAuthor = "TSWebDev"
+  keywords = "web development, portfolio, Hugo, HTML, CSS, JavaScript, AI, TSWebDev, freelance developer"
+
