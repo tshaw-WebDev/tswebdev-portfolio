@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on TSWebDev Portfolio</title>
-    <link>https://example.org/projects/</link>
+    <link>http://localhost:1313/projects/</link>
     <description>Recent content in Projects on TSWebDev Portfolio</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
     <lastBuildDate>Fri, 07 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.org/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GTF Motor Ltd</title>
-      <link>https://example.org/projects/gtfmotor/</link>
+      <link>http://localhost:1313/projects/gtfmotor/</link>
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/projects/gtfmotor/</guid>
+      <guid>http://localhost:1313/projects/gtfmotor/</guid>
       <description>&lt;p&gt;My first real project — a basic website for a local garage workshop.&lt;br&gt;&#xA;Built using &lt;strong&gt;HTML&lt;/strong&gt;, &lt;strong&gt;CSS&lt;/strong&gt;, and &lt;strong&gt;JavaScript&lt;/strong&gt; with AI assistance.&lt;/p&gt;</description>
     </item>
     <item>
       <title>OverTheWire Bandit War Game</title>
-      <link>https://example.org/projects/overthewire/</link>
+      <link>http://localhost:1313/projects/overthewire/</link>
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/projects/overthewire/</guid>
+      <guid>http://localhost:1313/projects/overthewire/</guid>
       <description>&lt;p&gt;A personal project documenting my experience completing the &lt;strong&gt;OverTheWire Bandit&lt;/strong&gt;&lt;br&gt;&#xA;War Game using basic &lt;strong&gt;HTML&lt;/strong&gt;, &lt;strong&gt;CSS&lt;/strong&gt;, &lt;strong&gt;JavaScript&lt;/strong&gt;, and &lt;strong&gt;AI-assisted writing&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>TSWebDev Portfolio Website</title>
-      <link>https://example.org/projects/tswebdev/</link>
+      <link>http://localhost:1313/projects/tswebdev/</link>
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/projects/tswebdev/</guid>
+      <guid>http://localhost:1313/projects/tswebdev/</guid>
       <description>&lt;p&gt;An intermediate-level project using the open-source static site generator &lt;strong&gt;Hugo&lt;/strong&gt;&lt;br&gt;&#xA;to create a responsive and minimalist web developer portfolio.&lt;/p&gt;</description>
     </item>
   </channel>

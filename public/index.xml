@@ -2,52 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on TSWebDev Portfolio</title>
-    <link>https://example.org/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Home on TSWebDev Portfolio</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
     <lastBuildDate>Fri, 07 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>https://example.org/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/about/</guid>
-      <description>&lt;h2 id=&#34;about-me&#34;&gt;About Me&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://example.org/images/about/tswebdevportpic2.png&#34; alt=&#34;TSWebDev Portrait&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;My background in tech began during the Windows and Dot-Com era, based in Manchester UK, studying Advanced IT in college during the mid-90s, then Business IT and Information &amp;amp; Communications at university in the early 2000&amp;rsquo;s.&lt;/p&gt;&#xA;&lt;p&gt;After a long hiatus, I returned to web development using modern tools like AI, online resources, and real-world projects to refresh and expand my skills.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Contact</title>
-      <link>https://example.org/contact/</link>
-      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/contact/</guid>
-      <description>&lt;div data-aos=&#34;fade-up&#34;&gt;&#xA;Have a question or want to work together?&lt;br&gt;&#xA;I&#39;d love to hear from you. Please use the form below to send me a message.&#xA;&lt;/div&gt;&#xA;&lt;form name=&#34;contact&#34; method=&#34;POST&#34; netlify netlify-honeypot=&#34;bot-field&#34; action=&#34;https://example.org/success&#34; data-aos=&#34;zoom-in&#34; data-aos-delay=&#34;200&#34;&gt;&#xA;  &lt;!-- Honeypot field (for spam protection) --&gt;&#xA;  &lt;input type=&#34;text&#34; name=&#34;bot-field&#34; style=&#34;display:none&#34;&gt;&#xA;&lt;p&gt;&lt;label&gt;Your Name&lt;/label&gt;&#xA;&lt;input type=&#34;text&#34; name=&#34;name&#34; required&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;label&gt;Your Email&lt;/label&gt;&#xA;&lt;input type=&#34;email&#34; name=&#34;email&#34; required&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;label&gt;Your Message&lt;/label&gt;&lt;/p&gt;&#xA;  &lt;textarea name=&#34;message&#34; rows=&#34;6&#34; required&gt;&lt;/textarea&gt;&#xA;&lt;p&gt;&lt;button class=&#34;cta-button&#34; type=&#34;submit&#34;&gt;Send Message&lt;/button&gt;&lt;/p&gt;&#xA;&lt;/form&gt;</description>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h2 id=&#34;about-me&#34;&gt;About Me&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/about/tswebdevportpic2.png&#34; alt=&#34;TSWebDev Portrait&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;My background in tech began during the Windows and Dot-Com era, based in Manchester UK, studying Advanced IT in college during the mid-90s, then Business IT and Information &amp;amp; Communications at university in the early 2000&amp;rsquo;s.&lt;/p&gt;&#xA;&lt;p&gt;After a long hiatus, I returned to web development using modern tools like AI, online resources, and real-world projects to refresh and expand my skills.&lt;/p&gt;</description>
     </item>
     <item>
       <title>GTF Motor Ltd</title>
-      <link>https://example.org/projects/gtfmotor/</link>
+      <link>http://localhost:1313/projects/gtfmotor/</link>
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/projects/gtfmotor/</guid>
+      <guid>http://localhost:1313/projects/gtfmotor/</guid>
       <description>&lt;p&gt;My first real project — a basic website for a local garage workshop.&lt;br&gt;&#xA;Built using &lt;strong&gt;HTML&lt;/strong&gt;, &lt;strong&gt;CSS&lt;/strong&gt;, and &lt;strong&gt;JavaScript&lt;/strong&gt; with AI assistance.&lt;/p&gt;</description>
     </item>
     <item>
       <title>OverTheWire Bandit War Game</title>
-      <link>https://example.org/projects/overthewire/</link>
+      <link>http://localhost:1313/projects/overthewire/</link>
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/projects/overthewire/</guid>
+      <guid>http://localhost:1313/projects/overthewire/</guid>
       <description>&lt;p&gt;A personal project documenting my experience completing the &lt;strong&gt;OverTheWire Bandit&lt;/strong&gt;&lt;br&gt;&#xA;War Game using basic &lt;strong&gt;HTML&lt;/strong&gt;, &lt;strong&gt;CSS&lt;/strong&gt;, &lt;strong&gt;JavaScript&lt;/strong&gt;, and &lt;strong&gt;AI-assisted writing&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Skills</title>
-      <link>https://example.org/skills/</link>
+      <link>http://localhost:1313/skills/</link>
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/skills/</guid>
+      <guid>http://localhost:1313/skills/</guid>
       <description>&lt;div data-aos=&#34;fade-up&#34;&gt;&#xA;&lt;h2 id=&#34;technical-skills&#34;&gt;Technical Skills&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;HTML&lt;/li&gt;&#xA;&lt;li&gt;CSS&lt;/li&gt;&#xA;&lt;li&gt;JavaScript&lt;/li&gt;&#xA;&lt;li&gt;VS Code&lt;/li&gt;&#xA;&lt;li&gt;Git Basics&lt;/li&gt;&#xA;&lt;li&gt;Command Line Basics&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;div data-aos=&#34;fade-up&#34; data-aos-delay=&#34;200&#34;&gt;&#xA;&lt;h2 id=&#34;services&#34;&gt;Services&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Basic Webpage / Website&lt;/li&gt;&#xA;&lt;li&gt;Video / Image Editing&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;div data-aos=&#34;fade-up&#34; data-aos-delay=&#34;300&#34;&gt;&#xA;&lt;h2 id=&#34;self-learning&#34;&gt;Self-Learning&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;FreeCodeCamp: HTML, CSS, JavaScript (Certified)&lt;/li&gt;&#xA;&lt;li&gt;The Odin-Project: Intermediate coursework&lt;/li&gt;&#xA;&lt;li&gt;OverTheWire Bandit Wargame: Command Line challenges&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title>TSWebDev Portfolio Website</title>
-      <link>https://example.org/projects/tswebdev/</link>
+      <link>http://localhost:1313/projects/tswebdev/</link>
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/projects/tswebdev/</guid>
+      <guid>http://localhost:1313/projects/tswebdev/</guid>
       <description>&lt;p&gt;An intermediate-level project using the open-source static site generator &lt;strong&gt;Hugo&lt;/strong&gt;&lt;br&gt;&#xA;to create a responsive and minimalist web developer portfolio.&lt;/p&gt;</description>
     </item>
   </channel>

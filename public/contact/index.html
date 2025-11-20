@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="UTF-8">
   <title>Contact | TSWebDev</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,7 +18,7 @@
 <meta property="og:title" content="Contact | TSWebDev">
 <meta property="og:description" content="Contact TSWebDev — Get in Touch">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://example.org/contact/">
+<meta property="og:url" content="http://localhost:1313/contact/">
 <meta property="og:image" content="/images/TSWebDev.png">
 
 
@@ -63,27 +63,51 @@
 
   <main>
     
-  <article class="content">
-    <h2>Contact</h2>
-    <div class="page-content">
-      <div data-aos="fade-up">
-Have a question or want to work together?<br>
-I'd love to hear from you. Please use the form below to send me a message.
+<section class="content">
+  <h2 data-aos="fade-right">Contact</h2>
+
+  <div class="page-content" data-aos="fade-up">
+    <!-- Using HTML inside a section page requires a blank line and raw HTML formatting -->
+<div data-aos="fade-up">
+  <h2>Get in Touch</h2>
+  <p>If you'd like to work together or have any questions, feel free to send a message using the form below.</p>
 </div>
-<form name="contact" method="POST" netlify netlify-honeypot="bot-field" action="/success" data-aos="zoom-in" data-aos-delay="200">
-  <!-- Honeypot field (for spam protection) -->
-  <input type="text" name="bot-field" style="display:none">
-<p><label>Your Name</label>
-<input type="text" name="name" required></p>
-<p><label>Your Email</label>
-<input type="email" name="email" required></p>
-<p><label>Your Message</label></p>
-  <textarea name="message" rows="6" required></textarea>
-<p><button class="cta-button" type="submit">Send Message</button></p>
+<form 
+  name="contact" 
+  method="POST" 
+  data-netlify="true" 
+  netlify-honeypot="bot-field"
+  data-aos="fade-up"
+  style="max-width:600px;margin:auto;"
+>
+  <!-- Honeypot spam field -->
+  <input type="hidden" name="form-name" value="contact">
+  <p style="display:none;">
+    <label>Don’t fill this out:
+      <input name="bot-field">
+    </label>
+  </p>
+  <div class="form-group">
+    <label>Your Name</label>
+    <input type="text" name="name" required>
+  </div>
+  <div class="form-group">
+    <label>Your Email</label>
+    <input type="email" name="email" required>
+  </div>
+  <div class="form-group">
+    <label>Your Message</label>
+    <textarea name="message" rows="5" required></textarea>
+  </div>
+  <button type="submit" class="contact-button" data-aos="zoom-in">
+    Send Message
+  </button>
 </form>
 
-    </div>
-  </article>
+  </div>
+
+  
+</section>
 
   </main>
 

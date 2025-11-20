@@ -1,18 +1,23 @@
 {{ define "main" }}
-<section class="projects-list">
- <h2 data-aos="fade-right">{{ .Title }}</h2>
-  <div class="projects-container">
+<section class="content">
+  <h2 data-aos="fade-right">{{ .Title }}</h2>
+
+  <div class="page-content" data-aos="fade-up">
+    {{ .Content | safeHTML }}
+  </div>
+
+  {{ if .Pages }}
+  <div class="projects-container" data-aos="fade-up" data-aos-delay="200">
     {{ range .Pages }}
       <div class="project-card">
-        <h3>{{ .Title }}</h3>
-        <p>{{ .Summary }}</p>
-{{ with .Params.thumbnail }}
-  <a href="{{ $.Params.link | default $.RelPermalink }}" target="_blank">
-    <img src="{{ . }}" alt="{{ $.Title }} Thumbnail">
-  </a>
-{{ end }}
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        {{ if .Params.thumbnail }}
+          <img src="{{ .Params.thumbnail | relURL }}" alt="{{ .Title }} thumbnail">
+        {{ end }}
+        <p>{{ .Params.description }}</p>
       </div>
     {{ end }}
   </div>
+  {{ end }}
 </section>
 {{ end }}
