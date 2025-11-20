@@ -85,3 +85,47 @@ form button {
   padding: 8px 16px;
   cursor: pointer;
 }
+
+/* Contact form styling */
+form {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #bbb;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #555;
+  background: #1e1e1e;
+  color: #fff;
+  border-radius: 6px;
+}
+
+.contact-button {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #5a33ff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.contact-button:hover {
+  background: #7d56ff;
+}
