@@ -32,5 +32,5 @@ description = "Technical and Creative Skills by TSWebDev"
 - FreeCodeCamp: HTML, CSS, JavaScript (Certified)
 - The Odin-Project: Intermediate coursework
 - OverTheWire Bandit Wargame: Command Line challenges
-
+- Linux: Distro installs, VM's 
 </div>
